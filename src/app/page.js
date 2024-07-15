@@ -1,9 +1,9 @@
+import { Card } from "react-bootstrap";
+import Posts from "@/components/PostCard";
 export default function Home() {
   return (
-    <main>
-      <h1>Hello World!</h1>
-
-      <button className="bg-red-400 rounded-md p-3">Show</button>
-    </main>
+    <div className="card mh-100 tw-overflow-auto tw-rounded-md p-3 min">
+      <Posts />
+    </div>
   );
 }

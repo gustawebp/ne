@@ -1,0 +1,14 @@
+.main-card {
+  min-height: 100vh;
+}
+
+.card {
+  background: #171d1f !important;
+  width: 100%;
+  color: white !important;
+
+  .card-body {
+    max-height: 100%;
+    overflow-y: auto;
+  }
+}

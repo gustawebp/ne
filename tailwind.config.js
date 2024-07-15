@@ -15,4 +15,5 @@ module.exports = {
     },
   },
   plugins: [],
+  prefix: "tw-", // Adicione esta linha
 };
