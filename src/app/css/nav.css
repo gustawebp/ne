@@ -1,0 +1,12 @@
+.nav {
+  border-color: #171d1f !important;
+  gap: 1rem;
+}
+
+.nav-item {
+  margin: 0;
+  cursor: pointer;
+}
+.active-nav {
+  border-bottom: 1.3px solid rgba(224, 57, 57, 0.863);
+}

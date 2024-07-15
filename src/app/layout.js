@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import "./css/aside.css";
 import "./css/cards.css";
+import "./css/nav.css";
 
 import { Aside } from "./layout/Aside";
 

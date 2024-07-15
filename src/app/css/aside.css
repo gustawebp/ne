@@ -13,7 +13,6 @@
 .cont {
   heigth: 95vh;
   overflow-y: auto;
-  border: 1px dashed #2a3336be;
   border-radius: 6px;
   padding: 1rem;
   margin: 0;

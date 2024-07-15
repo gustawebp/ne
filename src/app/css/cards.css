@@ -12,3 +12,35 @@
     overflow-y: auto;
   }
 }
+
+.card-post {
+  height: 450px;
+  box-shadow: 0.1px 0.5px 2px rgba(94, 250, 141, 0.705);
+  border: 0px !important;
+}
+
+.card-post:hover {
+  box-shadow: 0.1px 0.5px rgba(108, 253, 152, 0.425, 705);
+}
+
+.input-text {
+  height: 22px;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(94, 250, 141, 0.705);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #171d1f !important;
+  background-clip: padding-box;
+  border: 1px solid rgba(190, 190, 190, 0.589);
+  border-radius: 4px;
+  width: 40%;
+}
+input::placeholder {
+  color: rgba(94, 250, 141, 0.705);
+  font-weight: 400;
+}
